@@ -1,0 +1,55 @@
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #0f2a74;
+  height: 80px;
+}
+
+h1{
+  font-family: sansserif;
+  color: antiquewhite;
+  margin-left: 20px;
+}
+
+a{
+    color:  antiquewhite;
+    text-decoration: underline;
+    cursor: auto;
+    font-size: smaller;
+    margin-left: 340px; 
+  }
+
+#mypic {
+  width: 100%;
+}
+
+.login{
+  margin-left: 350px;
+  padding:25px; 
+  font-family: sansserif;
+  color: antiquewhite;
+}
+
+.signup{
+  font-family: sansserif;
+  color: rgb(247, 241, 241);
+  position: absolute;
+  z-index: 100;
+  left: 950px;
+  top: 40%; 
+
+}
+
+.background{
+  background-color: #0f2a74;
+}
+
+input[type=text], input[type=password], input[type=email]{
+  background: #f1f1f1;
+  /* border:solid; */
+  padding:5px;
+  /* border-color: rgb(9, 9, 83); */
+}
+
+
