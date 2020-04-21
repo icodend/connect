@@ -54,17 +54,18 @@ a{
 
 p{
   color:antiquewhite;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 2px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-style: normal;
+  margin-left: 28px;
 }
 
 .signup{
   right: 50px;
   width: 350px;
-  top: 20%; 
-  padding:0px 40px 20px 40px;
+  top: 25%; 
+  padding:0px 20px 20px 40px;
   position: absolute;
   z-index: 100;
   font-family: sansserif;
@@ -73,35 +74,6 @@ p{
   color:antiquewhite;
   background-color:#11119933;
   border-radius: 15px;
-}
-
-input{
-  border-radius: 3px;
-  height: 25px;
-}
-
-
-/* .signupform{
-  margin-left: 100px;
-
-}
-
-input[type=text] + label{
-  color:red;
-}
-input[type=email] + label{
-  color:red;
-}
-
-.text input{
-  margin-left: 10px;
-} */
-
-.checkboxfor{
-  height: 15px;
-  width: 15px;
-  background-color: antiquewhite;
-  border-radius: 100%;
 }
 
 .background{
@@ -117,6 +89,15 @@ input[type=text], input[type=password], input[type=email]{
   padding:5px;
   font-family:sansserif;
   font-size: small;
+  border-radius: 4px;
+  height: 25px;
 }
 
+input[type=radio]{
+  /* padding: 10px; */
+  vertical-align: bottom;
+}
 
+input[type=date]{
+  border-radius: 4px;
+}
